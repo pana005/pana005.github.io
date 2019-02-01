@@ -1,0 +1,17 @@
+.photo{
+	height: 450px;
+	display: inline-block;
+
+	border-style: double;
+	border-color: black solid 7px;
+	margin-left:35px;
+	margin-right:35px;
+}
+
+.frame{
+ 	width: 9500px;
+ 	position: absolute;
+ 	margin-top: 10%;
+ 	padding-left: 60px;
+
+ }

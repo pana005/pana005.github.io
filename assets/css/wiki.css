@@ -1,0 +1,70 @@
+* {box-sizing: border-box}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display:block;
+}
+
+.tab {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.333%;
+}
+
+.tab:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  
+}
+h1.left{
+  color:white;
+  text-align: right;
+}
+h1.center{
+  text-align: center;
+}
+
+.first{
+  font-family: 'Courier';font-size: 20px;  
+  width:50%;
+  color:black;
+}
+.sec{
+  font-family: 'Arial';  
+  text-align: center;
+  width:50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.third
+{
+  color:white;
+  font-family: 'Comic Sans MS';font-size: 20px;  
+  width:45%;
+  float:right;
+}
+
+#style1 {
+  background-color: #CBFEF4;
+
+}
+#style2 {
+  background-color: #6FDCC6;
+}
+#style3 {
+  background-color: #144239;
+}

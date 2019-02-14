@@ -15,6 +15,7 @@ body {
   background: white;
   margin: 30px auto;
   position: relative;
+  z-index: -2;
 }
 
 /* Your CSS goes here */
@@ -37,7 +38,8 @@ body {
 	top:83%;
 	left:20%;
 	border: 2px solid gray;
-	background-color: lightgray
+	background-color: lightgray;
+	z-index:1;
 }
 .tleft{
 	width:60px;
@@ -47,13 +49,18 @@ body {
 	left:13.6%;
 	border: 2px solid gray;
 	background-color: lightgray;
+	z-index: 2;
 }
 .book-middle{
-	width: 100px;
+	width: 200px;
 	height: 50px;
-	transform: skew(45deg);
+	transform: skew;
+	transform: rotate(-20deg);
 	background-color: white;
 	border: 2px solid lightgray;
+	top:86%;
+	left:13%;
+	
 }
 .bsleft{
 

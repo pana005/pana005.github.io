@@ -39,7 +39,7 @@ img {
 }
 p{
   text-align: center;
-  font-size:30px;
+  font-size:25px;
   font-family: Marker Felt;
   padding: 10px;
 }
@@ -55,7 +55,7 @@ a:hover, a:active{
   text-align:center;
   color: #AF1C1C;
   border-radius: 20%;
-  font-size: 40px;
+  font-size: 30px;
 }
 #footer{
 

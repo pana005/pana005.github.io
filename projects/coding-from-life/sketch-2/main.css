@@ -20,3 +20,153 @@ body {
 }
 
 /* Your CSS goes here */
+.absolute{
+  position:absolute;
+}
+.table{
+    width: 80vw;
+    height: 10vw;
+    left: 8vw;
+    top: 47vw;
+    background-color: black;
+    z-index: 0;
+}
+.camera{
+  width:5vw;
+  height: 3.5vw;
+  background-color: black;
+  top:42vw;
+  left:28vw;
+}
+.book-top{
+  width:12vw;
+  height:4.4vw;
+  top:45vw;
+  left:23vw;
+  border: 2px solid gray;
+  background-color: lightgray;
+  z-index:2;
+}
+
+.book-middle{
+  width: 17vw;
+  height: 1.5vw;
+  background-color: white;
+  border: 2px solid lightgray;
+  top:49vw;
+  left:18vw;
+  z-index:1;
+}
+.book-special{
+  width: 19vw;
+  height: 1.5vw;
+  background-color: lightblue;
+  border: 2px solid lightgray;
+  top:50vw;
+  left:16vw;
+}
+
+.orange{
+  width:4vw;
+  height:3vw;
+  border-radius: 43%;
+  background-color: orange;
+  border: 4px solid #e85a2c;
+  z-index:3;
+}
+.oone{
+  top:48vw;
+  right:35vw;
+}
+.otwo{
+  top:49vw;
+  right: 33vw;
+}
+.othree{
+  top:48vw;
+  right: 42vw;
+}
+.vase{
+  width:7vw;
+  height:11vw; 
+  background-color: gray;
+  opacity: 0.2;
+  border: 8px dotted lightskyblue;
+  top: 37vw;
+  left:45vw;
+  z-index:2;
+}
+.flower{
+  width:2vw;
+  height:2.5vw;
+  border-radius: 50%;
+  background-color: salmon;
+  opacity: 0.5;
+}
+.one{
+  top: 37vw;
+  left: 45vw;
+}
+.two{
+  top: 35vw;
+  left: 48vw;
+}
+.three{
+  top:34vw;
+  left:50vw;
+}
+.four{
+  top:37vw;
+  left:50vw;
+}
+.five{
+  top:35vw;
+  left:45.6vw;
+}
+.pot{
+    border-bottom: 5vw solid #ffedc1;
+    border-left: 3vw solid transparent;
+    border-right: 3vw solid transparent;
+    height: 0vw;
+    width: 4.8vw;
+    top: 39vw;
+    left: 66.7vw;
+    border-radius:20%;
+    z-index:1;
+}
+.pot2 {
+    width: 10vw;
+    height: 5vw;
+    background-color: #ffedc1;
+    top: 43vw;
+    left: 67vw;
+    border-radius:10%;
+    position: relative;
+    z-index:1;
+ 
+}
+.handle
+{
+  width: 5vw;
+  height: 8vw;
+  border: 1vw solid   #B8860B;
+  border-radius: 20%;
+  top: 37vw;
+  right:16vw;
+
+}
+.candle{
+  width:6vw;
+  height:2vw;
+  background-color: #DEB887;
+  top:45vw;
+  right:50vw;
+}
+.candle2{
+  width:6vw;
+  height:2vw;
+  background-color: #DEB887;
+  top:42vw;
+  right:50vw;
+}
+

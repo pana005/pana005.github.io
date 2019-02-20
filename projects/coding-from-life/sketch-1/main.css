@@ -34,37 +34,23 @@ body {
 .book-top{
 	width:140px;
 	height:45px;
-	transform: skewY(-20deg);
 	top:83%;
 	left:20%;
 	border: 2px solid gray;
 	background-color: lightgray;
 	z-index:1;
 }
-.tleft{
-	width:60px;
-	height:45px;
-	transform: skewY(20deg);
-	top:85.75%;
-	left:13.6%;
-	border: 2px solid gray;
-	background-color: lightgray;
-	z-index: 2;
-}
+
 .book-middle{
 	width: 200px;
 	height: 50px;
-	transform: skew;
-	transform: rotate(-20deg);
 	background-color: white;
 	border: 2px solid lightgray;
 	top:86%;
 	left:13%;
 	
 }
-.bsleft{
 
-}
 .orange{
 	width:75px;
 	height:45px;

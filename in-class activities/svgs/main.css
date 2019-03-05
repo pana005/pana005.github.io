@@ -1,0 +1,39 @@
+body{
+	background-color: lightpink;
+}
+.container{
+	background-color: lightpink;
+}
+.item{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+}
+@keyframes yinyangSpin{
+	0%{
+		transform: rotate(0turn);
+	}
+	100%{
+		transform:rotate(1turn);
+	}
+}
+div.item{
+	animation: spinType 2s ease-in-out 3s;
+}
+
+#yin-yang {
+  height:500px;
+  animation: yinyangSpin 2s ease-in-out infinite;
+}
+@keyframes colorSwap{
+	0%{
+		fill:default;
+	}
+	100%{
+		fill:#6d79cd;
+	}
+}
+#yin-yang path, #yin-yang circle{
+	animation: colorSwap 5 s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse;
+}

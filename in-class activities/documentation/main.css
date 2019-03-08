@@ -1,0 +1,77 @@
+html { 
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	cursor: pointer;
+}
+.bgcolor {
+	background: linear-gradient(-45deg, #ff0000, #3f0909, #281919, #740000);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 2s ease infinite;
+	animation : Gradient 5s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+img{
+	width: 98%;
+}
+.block1{
+	background-color: black;
+	width: 98%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.block2{
+	background-color: #A80101;
+	width: 98%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.web{
+	
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	border: 1px dashed #A80101;
+	margin: 10px;
+}
+.headline{
+	color: white;
+	font-family: Times New Roman;
+}
+.content{
+	color: white;
+	font-family: Times New Roman;
+	width:50%;
+}
+.link{
+	background-color: black;
+	padding: 20px;
+	color:white;
+	font-family: Times New Roman;
+	font-size: 20px;
+	width: 300px;
+}

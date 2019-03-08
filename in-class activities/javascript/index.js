@@ -128,7 +128,7 @@ for(var i=0; i< combo.length; i++){
 //Question 12
 //for(var i=0; i< combo.length; i++){
 	for(var f=0; f< food.length; f++){
-		console.log(food[f]);
+		console.log(food[i][f]);
 	}
 	for(var a=0; a< animal.length; a++){
 		console.log(animal[a]);
@@ -141,8 +141,13 @@ for(var i=0; i< combo.length; i++){
 		console.log(pokemon[po]);
 	}
 //}
+var arrayAll=[food, animal, places, pokemon];
 
-
+for (var i=0; i<arrayAll.length; i++){
+	for(var j=0; j< arrayAll.length[i]; j++){
+		console.log(arrayAll[i][j]);
+	}
+}
 
 
 

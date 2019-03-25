@@ -21,7 +21,6 @@ h1{
 
 h2{
   background-color:white;
-  text-align: center;
   font-family: Marker Felt;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +37,6 @@ img {
     max-height: 1000px;
 }
 p{
-  text-align: center;
   font-size:25px;
   font-family: Marker Felt;
   padding: 10px;
@@ -52,7 +50,6 @@ a:link, a:visited{
 }
 a:hover, a:active{
   position: static;
-  text-align:center;
   color: #AF1C1C;
   border-radius: 20%;
   font-size: 30px;

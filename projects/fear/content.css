@@ -1,0 +1,17 @@
+a{
+	float:right;
+	font-size: 30px;	
+	color: white;
+}
+a:link, a:visited{
+  position: static;
+  text-align:right;
+  color: white;
+  text-decoration: none;
+  
+}
+a:hover, a:active{
+  position: static;
+ 
+
+}

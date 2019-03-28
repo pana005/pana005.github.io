@@ -8,11 +8,7 @@ h2{
 	padding-right: 5%;
 	color:white;
 }
-.display{
-	display: block;
-	width:100%;
-	background-color: white;
-}
+
 .ttitle{
 	color:red;
 	font-size: 15px;
@@ -25,14 +21,12 @@ h2{
 	color:green;
 	font-size: 15px;
 }
-.buttons{
-	display: block;
-	width:100%;
-	background-color: gray;
-}
+
+
 button{
-	width:150px;
-	height:100px;
+	position:absolute;
+	width:250px;
+	height:150px;
 	border-radius: 50%;
 	font-size:25px;
 	padding-bottom:30px;
@@ -46,31 +40,21 @@ button{
 .life{
 	border: 4px double green;
 }
-.content1{
-	display:none;
-	left:40vw;
-	top: 40vw;
-}
-.a1{
 
-	left:4vw;
-	top: 4vw;
-}
-.a2{
-	position:absolute;
-	left:40vw;
-	top: 40vw;
-}
-.a3{
-	right:4vw;
-	top: 4vw;
-}
 
 .clown{
-	left:10vw;
-	top: 10vw;
+	left:5vw;
+	top: 5vw;
 }
 .insecure{
-	left:20vw;
+	left:10vw;
+	top: 20vw;
+}
+.failure{
+	left:15vw;
+	top: 35vw;
+}
+.forgot{
+	left:30vw;
 	top: 15vw;
 }

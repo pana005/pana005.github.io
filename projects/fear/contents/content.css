@@ -1,6 +1,10 @@
 html{
 	background-color: black;
 }
+body {
+	height: 200%;
+	cursor: pointer;
+}
 a{
 	float:right;
 	margin:50px;
@@ -23,7 +27,7 @@ a{
 	font-size: 15px;
 }
 .ftitle{
-	color:blue;
+	color:lightblue;
 	font-size: 15px;
 }
 .ltitle{
@@ -31,61 +35,57 @@ a{
 	font-size: 15px;
 }
 
+.block1{
+	width:100%;
+	height: 55vw;
+}
+.block2{
+	width:100%;
+	top:30vw;
+	height: 50vw;
+}
 
 button{
-	position:absolute;
-	width:250px;
-	height:150px;
-	border-radius: 50%;
-	font-size:25px;
+	width:100px;
+	height:90px;
+	border-radius: 40%;
+	font-size:14px;
 	color:white;
 	background-color: black;
-	padding-bottom:30px;
 }
 .thing{
 	border: 5px solid red;
 }
 .feeling{
-	border: 5px dotted blue;
+	border: 5px dotted lightblue;
 }
 .life{
 	border: 7px double green;
 }
 
-
-.clown{
+.content1{
+	width:35%;
+}
+.a1{
+	position: absolute;
+	top:8vw;
+	left:33vw;
+}
+.a2{
+	position: absolute;
+	top:30vw;
 	left:10vw;
-	top: 5vw;
 }
-.insecure{
-	left:5vw;
-	top: 25vw;
+.a3{
+	position: absolute;
+	top:30vw;
+	right:10vw;
 }
-.failure{
-	left:20vw;
-	top: 40vw;
+.content1-2{
+	width:40%;
 }
-.forgot{
-	right:34vw;
-	top: 3vw;
-}
-.ghost{
-	right:48vw;
-	top: 25vw;
-}
-.lost{
-	left:30vw;
-	top: 10vw;
-}
-.judge{
-	right:30vw;
-	top: 35vw;
-}
-.height{
-	right:5vw;
-	top: 37vw;
-}
-.authority{
-	right:18vw;
-	top:20vw;
+
+
+.content2{
+	width:100%;
 }

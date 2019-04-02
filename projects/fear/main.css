@@ -7,6 +7,7 @@ a{
 	font-size: 50px;	
 	color: white;
 	font-family: courier;
+
 }
 .homepage:link, .homepage:visited{
   position: static;
@@ -16,14 +17,17 @@ a{
 .homepage:hover, .homepage:active{
   position: static;
   font-size: 45px;
-  
+  animation: flash linear 1s infinite;
+}
+.map{
+	height:100vw;
 }
 .ttitle{
 	color:red;
 	font-size: 15px;
 }
 .ftitle{
-	color:blue;
+	color:#4362FE;
 	font-size: 15px;
 }
 .ltitle{
@@ -34,19 +38,36 @@ a{
 
 button{
 	position:absolute;
-	width:250px;
-	height:150px;
-	border-radius: 50%;
+	width:200px;
+	height:120px;
+	border-radius: 38.5%;
 	font-size:25px;
 	color:white;
 	background-color: black;
 	padding-bottom:30px;
 }
+
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+button:hover{
+	border:none;
+	font-size: 30px;
+	animation: flash linear 2.5s infinite;
+}
+
 .thing{
-	border: 5px solid red;
+	border: 3px solid red;
 }
 .feeling{
-	border: 5px dotted blue;
+	border: 5px dotted #4362FE;
 }
 .life{
 	border: 7px double green;
@@ -55,37 +76,61 @@ button{
 
 .clown{
 	left:10vw;
-	top: 5vw;
+	top: 14vw;
 }
 .insecure{
-	left:5vw;
-	top: 25vw;
+	left:40vw;
+	top: 40vw;
 }
 .failure{
-	left:20vw;
+	left:10vw;
 	top: 40vw;
 }
 .forgot{
-	right:34vw;
-	top: 3vw;
+	right:18vw;
+	top: 14vw;
 }
 .ghost{
-	right:48vw;
-	top: 25vw;
+	right:33vw;
+	top: 28vw;
 }
 .lost{
-	left:30vw;
-	top: 10vw;
+	left:40vw;
+	top: 14vw;
 }
 .judge{
-	right:30vw;
-	top: 35vw;
+	left:25vw;
+	top: 28vw;
 }
 .height{
-	right:5vw;
-	top: 37vw;
+	left:25vw;
+	top: 55vw;
 }
 .authority{
 	right:18vw;
-	top:20vw;
+	top:40vw;
+}
+.broke{
+	right:33vw;
+	top:55vw;
+}
+.bugs{
+	left:25vw;
+	top: 85vw;
+}
+.change{
+	left:10vw;
+	top: 70vw;
+}
+.small{
+	left:40vw;
+	top:70vw;
+}
+.water{
+	right:33vw;
+	top:85vw;
+}
+.needle{
+	right:18vw;
+	top:70vw;
 }

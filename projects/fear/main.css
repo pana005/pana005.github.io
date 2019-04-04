@@ -1,12 +1,16 @@
 html{
 	background-color: black;
 }
+.head{
+	width:100%;
+	text-align: right;
+	padding-top:2vw;
+}
 a{
-	float:right;
-	margin:50px;
-	font-size: 50px;	
+	font-size: 50px;
+	margin-right:5vw;	
 	color: white;
-	font-family: courier;
+	font-family: 'Nosifer', cursive;
 
 }
 .homepage:link, .homepage:visited{
@@ -18,9 +22,11 @@ a{
   position: static;
   font-size: 45px;
   animation: flash linear 1s infinite;
+  text-decoration: line-through;
+  font-style: italic;
 }
 .map{
-	height:100vw;
+	height:80vw;
 }
 .ttitle{
 	color:red;
@@ -38,6 +44,7 @@ a{
 
 button{
 	position:absolute;
+	cursor:pointer;
 	width:200px;
 	height:120px;
 	border-radius: 38.5%;
@@ -115,8 +122,8 @@ button:hover{
 	top:55vw;
 }
 .bugs{
-	left:25vw;
-	top: 85vw;
+	right:18vw;
+	top:70vw;
 }
 .change{
 	left:10vw;
@@ -124,13 +131,5 @@ button:hover{
 }
 .small{
 	left:40vw;
-	top:70vw;
-}
-.water{
-	right:33vw;
-	top:85vw;
-}
-.needle{
-	right:18vw;
 	top:70vw;
 }

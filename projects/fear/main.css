@@ -2,31 +2,38 @@ html{
 	background-color: black;
 }
 .head{
+	position:fixed;
 	width:100%;
 	text-align: right;
-	padding-top:2vw;
+	padding-top:1vw;
+	z-index:2;
+}
+h1{
+	position: absolute;
+	color:white;
+	font-family: 'Fredericka the Great', cursive;
+	width:50%;
+	left:10vw;
+	
 }
 a{
 	font-size: 50px;
-	margin-right:5vw;	
+	margin-right:3.5vw;	
 	color: white;
-	font-family: 'Nosifer', cursive;
-
+	font-family: 'Fredericka the Great', cursive;
 }
 .homepage:link, .homepage:visited{
-  position: static;
-  
-  text-decoration: none;
+	position: static;
+  	text-decoration: none;
 }
 .homepage:hover, .homepage:active{
-  position: static;
-  font-size: 45px;
-  animation: flash linear 1s infinite;
-  text-decoration: line-through;
-  font-style: italic;
+  	position: static;
+  	font-size: 45px;
+  	font-style: italic;
+  	font-family: 'Nosifer', cursive;
 }
 .map{
-	height:80vw;
+	height:70vw;
 }
 .ttitle{
 	color:red;
@@ -68,6 +75,8 @@ button:hover{
 	border:none;
 	font-size: 30px;
 	animation: flash linear 2.5s infinite;
+	font-style: italic;
+	font-family: 'Patrick Hand', cursive;
 }
 
 .thing{
@@ -113,23 +122,12 @@ button:hover{
 	left:25vw;
 	top: 55vw;
 }
-.authority{
-	right:18vw;
-	top:40vw;
-}
 .broke{
 	right:33vw;
 	top:55vw;
 }
 .bugs{
 	right:18vw;
-	top:70vw;
+	top:40vw;
 }
-.change{
-	left:10vw;
-	top: 70vw;
-}
-.small{
-	left:40vw;
-	top:70vw;
-}
+

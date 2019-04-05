@@ -4,63 +4,63 @@ html{
 }
 body {
 	height: 200%;
-	cursor: pointer;
 }
 .head{
+	position: fixed;
 	width:100%;
 	text-align: right;
 	padding-top:2vw;
+	z-index:2;
 }
-a{
-	text-align: left;
+.homepage{
 	font-size: 50px;
-	margin-right:5vw;	
+	margin-right:3.5vw;	
 	color: white;
-	font-family: courier;
+	font-family: 'Fredericka the Great', cursive;
 }
-
+p{
+	color:white;
+	font-family: "arial";
+}
 .homepage:link, .homepage:visited{
-  position: static;
-  
-  text-decoration: none;
+	position: static;
+  	text-decoration: none;
 }
 .homepage:hover, .homepage:active{
-  position: static;
-  font-size: 45px;
-  
+  	position: static;
+  	font-size: 45px;
+  	font-style: italic;
+  	font-family: 'Nosifer', cursive;
 }
 
 /* Page Layout */ 
 .block1{
 	width:100%;
-	height: 70vw;
+	height: 60vw;
 }
 .block1-2{
-	height:140vw;
+	height:100vw;
 }
-.block2{
+
+.toggle{
 	width:100%;
-	height: 35vw;
+	height: 10vw;
 }
-.hide{
-	width:150px;
-	height: 50px;
-	border-radius: 10%;
-	margin:65px;
-	animation: flash linear 4s infinite;
-}
-.hide:hover{
-	animation: none;
-	border:1px solid white;
-}
-.block3{
-  	width:100%;
-  	margin-left: 5vw;
-  	margin-right: 5vw;
+
+
+.block3, .block10-3{
+	position: relative;
+	height: 50vw;
+  	width:70vw;
+  	margin-left: 10vw;
+  	margin-right: 10vw;
+  	margin-top: 5vw;
+  	padding: 5vw;
 }
 
 /* Button Style */ 
 button{
+	position:absolute;
 	cursor:pointer;
 	width:150px;
 	height:90px;
@@ -104,8 +104,89 @@ button:hover{
 .life{
 	border: 7px double green;
 }
+/*map*/
+.clown{
+	left:10%;
+	top: 14%;
+}
+.insecure{
+	left:40%;
+	top: 40%;
+}
+.failure{
+	left:10%;
+	top: 40%;
+}
+.forgot{
+	right:18%;
+	top: 14%;
+}
+.ghost{
+	right:33%;
+	top: 28%;
+}
+.lost{
+	left:40%;
+	top: 14%;
+}
+.judge{
+	left:25%;
+	top: 28%;
+}
+.height{
+	left:25%;
+	top: 55%;
+}
+.broke{
+	right:33%;
+	top:55%;
+}
+.bugs{
+	right:18%;
+	top:40%;
+}
 
 /* Contents: Clown; */ 
+.hide{
+	position:absolute;
+	width:200px;
+	height: 50px;
+	border-radius: 10%;
+	animation: flash linear 0.3s infinite;
+	z-index:2;
+	top:10%;
+	left:40%;
+}
+.hide:hover, .hide2:hover, .reset:hover {
+	animation: none;
+	border:1px solid white;
+}
+.hide2{
+	position:absolute;
+	display:none;
+	width:200px;
+	height: 50px;
+	border-radius: 10%;
+	animation: flash linear 2.5s infinite;
+	z-index:2;
+	top:50%%;
+	left:45%;
+}
+.reset{
+	position:absolute;
+	display:none;
+	width:200px;
+	height: 50px;
+	border-radius: 10%;
+	animation: flash linear 6s infinite;
+	z-index:2;
+	top:10%;
+	left:40%;
+}
+.block1-2{
+	width:100%;
+	height:50vw;
+}
 .content1{
 	width:35%;
 }
@@ -113,49 +194,249 @@ button:hover{
 	position: absolute;
 	width:100%;
 }
-.a2{
-	position: absolute;
-	top:30vw;
-	left:10vw;
-}
-.a3{
-	position: absolute;
-	top:30vw;
-	right:10vw;
+.cc{
+	color:white;
+	font-family: 'courier';
+	font-size: 25px;
+	padding-left:25%;
+	padding-right:25%;
+
 }
 .content1-2{
 	width:40%;
 }
 
 /* Contents Insecure*/
-/* Contents Failure*/
-/* Contents Forgotten*/
-/* Contents Ghost*/
-/* Contents Lost*/
-.content3{
-	color:white;
-	font-size:32px;
-	text-align:center;
-	padding-left:15%;
-	padding-right:15%;
-	line-height: 2.5;
-	font-family: courier;
-}
-/* Contents Judgement*/
-.block4-1{
+.block2{
+	display:block;
 	width:100%;
-	height:50vw;
+	height:200vw;
 }
-.content4{
+.block2-2{
+	width:100%;
+	height:175vw;
+}
+.content2{
+	position:absolute;
+	width:40%;
+	right:8vw;
+	text-align: right;
+}
+.content2-1{
+	position: absolute;
+	font-size:40px;
+	top:10vw;
+	left:16vw;
+}
+.content2-2{
+	position:absolute;
+	width:40%;
+	top:32vw;
+	left:8vw;
+	text-align: left;
+}
+.content2-3{
+	position:absolute;
+	font-size:40px;
+	top:46vw;
+	right:12vw;
+}
+.content2-4{
+	position:absolute;
+	width:40%;
+	top:76vw;
+	right:8vw;
+	text-align: right;
+}
+.content2-5{
+	position:absolute;
+	font-size:35px;
+	width:33%;
+	top:78vw;
+	left:12vw;
+}
+.in{
+	position: absolute;
+	top:100vw;
+	left:8vw;
+	text-align:left;
+}
+.content2-6{
+	font-size:30px;
+}
+.content2-7{
+	font-size:40px;
+	top:110vw;
+	left:12vw;
+}
+.content2-8{
+	font-size:60px;
+	top:120vw;
+	left:16vw;
+}
+.content2-9{
+	font-size:80px;
+	top:130vw;
+	left: 20vw;
+}
+.content2-10{
+	font-size:100px;
+	top:140vw;
+	left:24vw;
+}
+.solution2{
+	position:absolute;
+	font-size: 40px;
+	width:80%;
+	top:170vw;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+.roadmap{
+	 text-decoration: none;
+	 font-family: 'Fredericka the Great', cursive;
+	 color:#4362FE;
+	 font-size: 60px;
+	 animation:flash linear 3s infinite;
+}
+.roadmap:hover{
+	animation: none;
+	font-size:70px;
+}
+/* Contents Failure*/
+.content3{
+	text-align:center;
+	display:block;
+	width:40%;
+	padding-left: 30%;
+}
+.solution3{
+	font-size:45px;
+	text-align: center;
+}
+.solution3-1, .solution4-1, .solution7{
+	text-decoration: none;
+	 font-family: 'Fredericka the Great', cursive;
+	 color:#4362FE;
+	 font-size: 60px;
+	 animation:flash linear 3s infinite;
+}
+.solution3-1:hover, .solution4-1:hover, .solution7:hover{
+	animation: none;
+	font-size:70px;
+}
+.solution3-2{
+	width:50%;
+	padding-left:25%;
+}
+/* Contents Forgotten*/
+.forgottitle{
 	color:white;
 	font-family:Kalam ;
 	text-align:center;
 	padding-left:25%;
 	padding-right:25%;
+}
+.block4-1{
+	width:100%;
+	height:75vw;
+}
+.block4-2{
+	width:100%;
+	height:5vw;
+}
+.content4{
+	text-indent: 50px;
+	color:white;
+	font-family:Kalam ;
+	padding-left:25%;
+	padding-right:25%;
 	line-height: 2;
 }
+.solution4{
+	font-size:50px;
+	font-family:Kalam ;
 }
+/* Contents Ghost*/
+.content5{
+
+}
+/* Contents Lost*/
+.block6-1{
+	width:100%;
+}
+.content6,.chinese{
+	color:white;
+	font-size:32px;
+	text-align:center;
+	padding-top:;
+	padding-left:15%;
+	padding-right:15%;
+	line-height: 2.5;
+	font-family: courier;
+}
+.solution6{
+	padding-left: 45%;
+	font-family: "courier";
+	font-size:30px;
+}
+.solution6-1{
+	text-decoration: none;
+	 font-family: 'Fredericka the Great', cursive;
+	 color:#4362FE;
+	 font-size: 40px;
+	 animation:flash linear 3s infinite;
+}
+.solution6-1:hover{
+	animation: none;
+	font-size:50px;
+}
+/* Contents Judgement*/
+.block7-1{
+	width:100%;
+}
+.content7-1{
+	padding-top: 10%;
+	color:white;
+	font-family: courier;
+	text-align: center;
+	padding-left:15%;
+	padding-right:15%;
+	font-size:30px;
+}
+.content7-2{
+	width:50%;
+	padding-top:5%;
+	padding-left: 25%;
+}
+.connect{
+
+	color:white;
+	font-family: courier;
+	text-align: center;
+	padding-left:15%;
+	padding-right:15%;
+	font-size:30px;
+}
+.content7-3, .content7-4, .content7-5{
+	padding-top: 10%;
+	font-size: 25px;
+	font-family: courier;
+	text-align: center;
+	width:40%;
+}
+span{
+	font-family: 'Fredericka the Great', cursive;
+	 color:#4362FE;
+	 font-size: 60px;
+}
+
 /* Contents Height*/
+.block8-1{
+	width:100%;
+	height:150vw;
+}
 .content8{
 	width:100%;
 }
@@ -171,17 +452,61 @@ button:hover{
 	padding:20px;
 	width:20%;
 }
-/* Contents Authority*/
-/* Contents Broke*/
-.block10{
+.solution8, .solution8-1{
+	color:white;
+	text-align: center;
+	font-size:40px;
+}
+.ssite{
+	color:red;
+	font-size:50px;
+	text-decoration: none;
+	font-family: 'Fredericka the Great', cursive;
+}
+.ssite:hover{
+	font-size:60px;
+	animation:flash linear 3s infinite;
+}
 
+/* Contents Broke*/
+.block10-2{
+	width:100%;
+	height: 25vw;
+
+}
+.contentb{
+	width:50%;
+	padding-left:25%;
+}
+.text{
+	width:60%;
+	padding:20%;
+	font-size:25px;
+}
+.break{
+	font-size:30px;
+	padding:15px;
+	color:white;
+	font-family: "Arial";
+	text-align: center;
+}
+.app, .notebook{
+	text-decoration: none;
+	 font-family: 'Fredericka the Great', cursive;
+	 color:#4362FE;
+	 font-size: 40px;
+	 animation:flash linear 3s infinite;
+}
+.app:hover, .notebook:hover{
+	animation: none;
+	font-size:50px;
 }
 .content10{
 	width:100%;
 }
 /* Contents Insects*/
-/* Contents Changes*/
-/* Contents Small Space*/
-/* Contents Water*/
-/* Contents ghost*/
-/* Contents ghost*/
+.content11{
+
+}
+
+

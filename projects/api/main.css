@@ -1,0 +1,44 @@
+
+.block1,.block2,.block3{
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	width:70vw;
+	height:30vw;
+	border: 5px dotted red;
+	margin-bottom: 25px;
+
+}
+.block1,.block3{
+	margin-right: 0px;
+    margin-left: auto;
+}
+.title-1, .title-2,.title-3{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width:25vw;
+	height:30vw;
+
+}
+.title-1, .title-3{
+	margin-left: 10px;
+    margin-right: auto;
+    float:left;
+}
+.title-2{
+	margin-right: 10px;
+    margin-left: auto;
+	float:right;
+}
+p{
+	font-family: 'Abril Fatface', cursive;
+	font-size:30px;
+}
+button{
+	width:10vw;
+	height:3vw;
+	margin:20px;
+
+}

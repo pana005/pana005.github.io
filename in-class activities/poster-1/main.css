@@ -1,0 +1,63 @@
+.name{
+	font-family: 'Gugi', cursive;
+	font-size:100px;
+	text-align: center;
+	margin-top: 20%;
+	color:red;
+	text-shadow: 5px 6px green;
+}
+.time{
+	font-family: 'Gugi';
+	font-size: 35px;
+	text-align: center;
+	margin-top: 20px;
+	color:red;
+}
+.box{
+	width: 65vw;
+	height: 40vw;
+	border: 15px solid red;
+	position: absolute;
+	animation-name: boxmove;
+  	animation-duration: 5s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.box2{
+	width: 65vw;
+	height: 40vw;
+	border: 5px solid green;
+	position: absolute;
+	animation-name: boxmovetwo;
+  	animation-duration: 5s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes boxmove {
+ 	0% {
+		right: 10%;
+		top: 5%;
+	}
+
+	100% {
+		right: 25%;
+		top: 20%;
+		border:5px solid red;
+	}
+}
+
+@keyframes boxmovetwo {
+ 	0% {
+		left: 10%;
+		top: 20%;
+	}
+
+	100% {
+		left: 25%;
+		top: 5%;
+		border:15px solid green;
+	}
+}

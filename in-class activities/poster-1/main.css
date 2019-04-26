@@ -1,14 +1,14 @@
 .name{
 	font-family: 'Gugi', cursive;
-	font-size:100px;
+	font-size:7vw;
 	text-align: center;
 	margin-top: 20%;
 	color:red;
-	text-shadow: 5px 6px green;
+	text-shadow: 0.5vw 0.6vw green;
 }
 .time{
 	font-family: 'Gugi';
-	font-size: 35px;
+	font-size: 3vw;
 	text-align: center;
 	margin-top: 20px;
 	color:red;

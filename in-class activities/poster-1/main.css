@@ -6,12 +6,27 @@
 	color:red;
 	text-shadow: 0.5vw 0.6vw green;
 }
+.name2{
+	font-family: 'Gugi', cursive;
+	font-size:6vw;
+	text-align: center;
+	margin-top: 20%;
+	color:blue;
+	text-shadow: 0.5vw 0.6vw orange;
+}
 .time{
 	font-family: 'Gugi';
 	font-size: 3vw;
 	text-align: center;
 	margin-top: 20px;
 	color:red;
+}
+.time2{
+	font-family: 'Gugi';
+	font-size: 2.5vw;
+	text-align: center;
+	margin-top: 20px;
+	color:blue;
 }
 .box{
 	width: 65vw;
@@ -35,7 +50,28 @@
   	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
-
+.box3{
+	width: 65vw;
+	height: 40vw;
+	border: 5px solid orange;
+	position: absolute;
+	animation-name: boxmovethree;
+  	animation-duration: 5s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+.box4{
+	width: 65vw;
+	height: 40vw;
+	border: 15px solid blue;
+	position: absolute;
+	animation-name: boxmovefour;
+  	animation-duration: 5s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
 @keyframes boxmove {
  	0% {
 		right: 10%;
@@ -59,5 +95,30 @@
 		left: 25%;
 		top: 5%;
 		border:15px solid green;
+	}
+}
+@keyframes boxmovethree {
+ 	0% {
+		right: 10%;
+		top: 5%;
+	}
+
+	100% {
+		right: 25%;
+		top: 20%;
+		border:15px solid blue;
+	}
+}
+
+@keyframes boxmovefour {
+ 	0% {
+		left: 10%;
+		top: 20%;
+	}
+
+	100% {
+		left: 25%;
+		top: 5%;
+		border:5px solid orange;
 	}
 }

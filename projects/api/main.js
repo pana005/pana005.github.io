@@ -107,7 +107,7 @@ $(function(){
 		"food30.jpeg",
 	];
 	$('.reset').click(function(){
-		window.location.replace("http://pana005.github.io/projects/api/index.html");
+		window.open("http://pana005.github.io/projects/api/index.html", '_blank');
 	});
 	$('.option-button').click(function() {
 		var value = $('.option-selector').val();

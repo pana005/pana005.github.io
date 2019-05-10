@@ -21,6 +21,16 @@ $(function(){
 		"animal18.jpeg",
 		"animal19.jpeg", 
 		"animal20.jpeg", 
+		"animal21.jpeg", 
+		"animal22.jpeg", 
+		"animal23.jpeg",
+		"animal24.jpeg", 
+		"animal25.jpeg", 
+		"animal26.jpeg", 
+		"animal27.jpeg", 
+		"animal28.jpeg", 
+		"animal29.jpeg",
+		"animal30.jpeg",  
 		];
 	var patImg = [
 		"pat1.jpeg",
@@ -65,7 +75,36 @@ $(function(){
 	];
 
 	var foodImg =[
-
+		"food1.jpeg",
+		"food2.jpeg",
+		"food3.jpeg",
+		"food4.jpeg",
+		"food5.jpeg",
+		"food6.jpeg",
+		"food7.jpeg",
+		"food8.jpeg",
+		"food9.jpeg",
+		"food10.jpeg",
+		"food11.jpeg",
+		"food12.jpeg",
+		"food13.jpeg",
+		"food14.jpeg",
+		"food15.jpeg",
+		"food16.jpeg",
+		"food17.jpeg",
+		"food18.jpeg",
+		"food19.jpeg",
+		"food20.jpeg",
+		"food21.jpeg",
+		"food22.jpeg",
+		"food23.jpeg",
+		"food24.jpeg",
+		"food25.jpeg",
+		"food26.jpeg",
+		"food27.jpeg",
+		"food28.jpeg",
+		"food29.jpeg",
+		"food30.jpeg",
 	];
 	$('.reset').click(function(){
 		window.location.replace("http://pana005.github.io/projects/api/index.html");
@@ -86,7 +125,8 @@ $(function(){
 			$('body').append('<img src="'+imageSrc+'">');
 		}else if ( value == 'Food' ) {
 			// Add a text box
-			$('body').append('.header');
+			var imageSrc = 'img/food/' + getRandomFoodImg();
+			$('body').append('<img src="'+imageSrc+'">');
 		}
 	});
 
@@ -131,5 +171,12 @@ $(function(){
 			$(".block3 img").eq(i).attr('src', imageSrc);
 		}
 	});
+
+	function getRandomFoodImg(){
+		var num = Math.floor( Math.random() * foodImg.length );
+		var img = foodImg[ num ];
+		console.log(img);
+		return img;
+	}
 	
 });

@@ -1,4 +1,34 @@
+.reset{
+	position:fixed;
+	width:10%;
+	right:0;
+	z-index: 3;
+}
+option{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 15px;
+	width:100px;
+}
+.option{
+	width:100%;
+	position: fixed;
+	background-color: lightgray;
+}
+span{
+	font-family: 'Abril Fatface', cursive;
+}
 .header{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Abril Fatface', cursive;
+	margin:5%;
+}
+.header::placeholder{
+	background-image: linear-gradient(90deg, #F72424 30%, #FFEC00 42%, #89EF97 59%, #4336B4 73%, #00FFA1 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*.header{
 	text-align: center;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 4vw;
@@ -8,6 +38,7 @@
   -webkit-text-fill-color: transparent;
   transition: all 0.8s ease;
 }
+*/
 @keyframes rainbow {
 	0% { 
 		background-image: linear-gradient(90deg, #F72424 30%, #FFEC00 42%, #89EF97 59%, #4336B4 73%, #00FFA1 90%);
@@ -39,6 +70,16 @@
 	margin-right: 0px;
     margin-left: auto;
 }
+.section{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 30px
+}
+.section::placeholder{
+	font-size: 25px;
+	color:black;
+	text-align: center;
+	
+}
 .title-1, .title-2,.title-3{
 	display:flex;
 	align-items: center;
@@ -65,21 +106,28 @@ p{
 	
 }
 button{
+	cursor: pointer;
 	width:10vw;
 	height:3vw;
 	margin:20px;
-	font-size: 15px;
+	font-size: 18px;
+	color:black;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	font-family: 'Abril Fatface', cursive;
+  	outline: none;
+  	background-image: linear-gradient(49deg, #FF0000 0%, #F99E10 22%, rgba(243,228,25,0.83) 43%, #2DB73E 64%, #294B7B 81%, #5E278F 100%);
+
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color:white;
+  font-family: 'Abril Fatface', cursive;
+
 }
 
-@keyframes flash {
-	0% { opacity: 1; } 
-	50% { opacity: .1; } 
-	100% { opacity: 1; }
-}
-
-button:hover{
-	animation: flash linear 2.5s infinite;;
-}
 img{
 	width:20vw;
 	height:30vw;

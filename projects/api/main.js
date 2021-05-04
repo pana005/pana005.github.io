@@ -1,36 +1,36 @@
 $(function(){
 	var x = $(".b-1");
 	var profImg = [
-		"animal1.jpeg", 
-		"animal2.jpeg", 
-		"animal3.jpeg", 
-		"animal4.jpeg", 
-		"animal5.jpeg", 
+		"animal1.jpeg",
+		"animal2.jpeg",
+		"animal3.jpeg",
+		"animal4.jpeg",
+		"animal5.jpeg",
 		"animal6.jpeg",
-		"animal7.jpeg", 
-		"animal8.jpeg", 
-		"animal9.jpeg", 
-		"animal10.jpeg", 
-		"animal11.jpeg", 
+		"animal7.jpeg",
+		"animal8.jpeg",
+		"animal9.jpeg",
+		"animal10.jpeg",
+		"animal11.jpeg",
 		"animal12.jpeg",
-		"animal13.jpeg", 
-		"animal14.jpeg", 
-		"animal15.jpeg", 
-		"animal16.jpeg", 
-		"animal17.jpeg", 
+		"animal13.jpeg",
+		"animal14.jpeg",
+		"animal15.jpeg",
+		"animal16.jpeg",
+		"animal17.jpeg",
 		"animal18.jpeg",
-		"animal19.jpeg", 
-		"animal20.jpeg", 
-		"animal21.jpeg", 
-		"animal22.jpeg", 
+		"animal19.jpeg",
+		"animal20.jpeg",
+		"animal21.jpeg",
+		"animal22.jpeg",
 		"animal23.jpeg",
-		"animal24.jpeg", 
-		"animal25.jpeg", 
-		"animal26.jpeg", 
-		"animal27.jpeg", 
-		"animal28.jpeg", 
+		"animal24.jpeg",
+		"animal25.jpeg",
+		"animal26.jpeg",
+		"animal27.jpeg",
+		"animal28.jpeg",
 		"animal29.jpeg",
-		"animal30.jpeg",  
+		"animal30.jpeg",
 		];
 	var patImg = [
 		"pat1.jpeg",
@@ -152,9 +152,10 @@ $(function(){
 	}
 
 	$(".b-2").click(function() {
-		for (var i = 2; i >= 0; i--) {
+		for (var i = 0; i >= 0; i--) {
 			var imageSrc = 'img/pat/' + getRandomPatImg();
 			$(".block2 img").eq(i).attr('src', imageSrc);
+
 		}
 	});
 
@@ -178,5 +179,5 @@ $(function(){
 		console.log(img);
 		return img;
 	}
-	
+
 });
